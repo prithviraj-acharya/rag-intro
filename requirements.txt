@@ -13,3 +13,4 @@ pandas
 langchain-text-splitters
 jupyter 
 ipywidgets
+pymupdf
