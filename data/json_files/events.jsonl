@@ -1,0 +1,35 @@
+{
+	"events": [
+		{
+			"event_id": "E1001",
+			"timestamp": "2025-10-26T10:15:30Z",
+			"user_id": "U001",
+			"event_type": "login",
+			"details": {
+				"ip_address": "192.168.1.10",
+				"device": "Windows Laptop"
+			}
+		},
+		{
+			"event_id": "E1002",
+			"timestamp": "2025-10-26T10:18:45Z",
+			"user_id": "U002",
+			"event_type": "file_upload",
+			"details": {
+				"file_name": "report.pdf",
+				"file_size_kb": 245,
+				"location": "/uploads/reports/"
+			}
+		},
+		{
+			"event_id": "E1003",
+			"timestamp": "2025-10-26T10:20:10Z",
+			"user_id": "U001",
+			"event_type": "logout",
+			"details": {
+				"duration_sec": 280,
+				"success": true
+			}
+		}
+	]
+}

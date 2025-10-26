@@ -1,0 +1,62 @@
+{
+	"company": {
+		"name": "TechNova Solutions",
+		"location": "Bangalore, India",
+		"founded": 2010
+	},
+	"departments": [
+		{"id": 1, "name": "Engineering", "manager": "Anita Rao", "budget": 5000000, "headcount": 150},
+		{"id": 2, "name": "Sales", "manager": "Vikram Patel", "budget": 3000000, "headcount": 80},
+		{"id": 3, "name": "HR", "manager": "Sunita Mehra", "budget": 1000000, "headcount": 20}
+	],
+	"employees": [
+		{
+			"id": 1,
+			"name": "Rahul Sharma",
+			"role": "Backend Developer",
+			"age": 29,
+			"department_id": 1,
+			"projects": [
+				{"project_id": "P1001", "name": "AI Chatbot"}
+			]
+		},
+		{
+			"id": 2,
+			"name": "Priya Singh",
+			"role": "Frontend Developer",
+			"age": 26,
+			"department_id": 1,
+			"projects": [
+				{"project_id": "P1001", "name": "AI Chatbot"}
+			]
+		},
+		{
+			"id": 3,
+			"name": "Amit Verma",
+			"role": "Sales Executive",
+			"age": 32,
+			"department_id": 2,
+			"projects": [
+				{"project_id": "P1002", "name": "CRM Upgrade"}
+			]
+		},
+		{
+			"id": 4,
+			"name": "Neha Gupta",
+			"role": "Account Manager",
+			"age": 28,
+			"department_id": 2,
+			"projects": [
+				{"project_id": "P1002", "name": "CRM Upgrade"}
+			]
+		},
+		{
+			"id": 5,
+			"name": "Karan Joshi",
+			"role": "HR Specialist",
+			"age": 31,
+			"department_id": 3,
+			"projects": []
+		}
+	]
+}
